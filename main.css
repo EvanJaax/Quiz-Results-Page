@@ -1,0 +1,140 @@
+html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+
+body {
+  height: 100%;
+  padding: 0px 50px;
+  margin: 0px;
+  width: 500px
+}
+
+header {
+  border: 5px solid black;
+  padding: 0px 100px;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 10rm;
+  text-overflow: clip;
+  border: 5px solid black;
+}
+
+.easy {
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+}
+
+.status_bars {
+  display: flex;
+  flex-direction: row;
+  width: 75px;
+  box-sizing: border-box;
+  height: 200px;
+}
+
+.easy_correct_bar {
+  background-color: rgb(0, 255, 0);
+  height: 100%;
+  width: 50%;
+  align-self: flex-end;
+}
+.easy_incorrect_bar {
+  background-color: rgb(255, 0, 0);
+  height: 0%;
+  width: 50%;
+  align-self: flex-end;
+}
+
+.easy_percentage {
+ color: rgb(0, 255, 0);
+}
+ 
+.normal {
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+}
+.normal_correct_bar {
+  background-color: rgb(0, 255, 0);
+  height: 75%;
+  width: 50%;
+  align-self: flex-end;
+}
+.normal_incorrect_bar {
+  background-color: rgb(255, 0, 0);
+  height: 25%;
+  align-self: flex-end;
+  width: 50%;
+}
+.normal_percentage {
+  color: rgb(0, 255, 0);
+}
+ 
+.heroic {
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+}
+.heroic_correct_bar {
+  background-color: rgb(0, 255, 0);
+  height: 70%;
+  align-self: flex-end;
+  width: 50%;
+}
+.heroic_incorrect_bar {
+  align-self: flex-end;
+  background-color: rgb(255, 0, 0);
+  height: 30%;
+  width: 50%;
+
+}
+.heroic_percentage {
+ color: rgb(255, 0, 0);
+}
+
+.legendary {
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+}
+.legendary_correct_bar {
+  align-self: flex-end;
+  color: rgb(0, 255, 0);
+  height: 0%;
+  width: 50%;
+}
+.legendary_incorrect_bar {
+  align-self: flex-end;
+  background-color: rgb(255, 0, 0);
+  height: 100%;
+  width: 50%;
+}
+.legendary_percentage {
+
+}
+
+.gbar {
+  border: 1px solid rgb(0, 255, 0);
+  border-radius: 10px;
+}
+
+.rbar {
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 8px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
